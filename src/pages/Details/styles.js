@@ -15,7 +15,7 @@ export const Links = styled.ul`
   list-style: none;
 
   > li {
-    margin-top: 12px;
+    margin-top: 1.2rem;
 
     a {
       color: ${({ theme }) => theme.COLORS.WHITE};
@@ -36,14 +36,14 @@ export const Content = styled.div`
   }
 
   > h1 {
-    font-size: 36px;
+    font-size: 3.6rem;
     font-weight: 500;
-    padding-top: 64px;
+    padding-top: 6.4rem;
   }
 
   > p {
-    font-size: 16px;
-    margin-top: 16px;
+    font-size: 1.6rem;
+    margin-top: 1.6rem;
     text-align: justify;
   }
 `

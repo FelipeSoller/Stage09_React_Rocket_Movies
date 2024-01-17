@@ -22,7 +22,7 @@ export const Container = styled.div`
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
     margin-top: 2.4rem;
     padding: 1.6rem;
-    border-radius: 10px;
+    border-radius: 1rem;
   }
 `
 
@@ -32,7 +32,7 @@ export const BackButton = styled.div`
 `
 
 export const Form = styled.form`
-  margin: 38px auto;
+  margin: 3.8rem auto;
   padding: 0 12.5rem;
 
   > header {
@@ -40,10 +40,10 @@ export const Form = styled.form`
     align-items: center;
     justify-content: space-between;
 
-    margin-bottom: 36px;
+    margin-bottom: 3.6rem;
 
     a {
-      font-size: 20px;
+      font-size: 2rem;
       color: ${({ theme }) => theme.COLORS.GRAY_100}
     }
   }
