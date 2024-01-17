@@ -30,7 +30,7 @@ export const SignIn = () => {
 
         <Button title="Enter" />
 
-        <ButtonText title="Sign Up" />
+        <ButtonText title="Sign Up" linkTo="/register" />
       </Form>
       <Background />
     </Container>

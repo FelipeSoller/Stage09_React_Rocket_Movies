@@ -17,7 +17,7 @@ export const New = () => {
       <main>
         <Form>
           <BackButton>
-            <ButtonText title={'Back'} icon={FiArrowLeft} />
+            <ButtonText title={'Back'} icon={FiArrowLeft} linkTo={'/'} />
           </BackButton>
           <header>
             <h1>New Movie</h1>

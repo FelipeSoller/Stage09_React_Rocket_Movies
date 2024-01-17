@@ -36,7 +36,7 @@ export const SignUp = () => {
 
         <Button title="Register" />
 
-        <ButtonText title="Back to login" icon={FiArrowLeft} />
+        <ButtonText title="Back to login" icon={FiArrowLeft} linkTo="/" />
       </Form>
       <Background />
     </Container>

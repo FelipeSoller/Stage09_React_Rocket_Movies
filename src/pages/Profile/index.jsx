@@ -10,7 +10,7 @@ export const Profile = () => {
   return (
     <Container>
       <header>
-        <ButtonText title="Back" icon={FiArrowLeft} />
+        <ButtonText title="Back" icon={FiArrowLeft} linkTo={'/'} />
       </header>
 
       <Form>
