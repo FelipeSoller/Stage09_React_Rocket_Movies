@@ -1,8 +1,7 @@
 
 import { FiPlus } from 'react-icons/fi'
 import PropTypes from 'prop-types';
-
-import { Button } from '../../components/Button'
+import { Link } from 'react-router-dom';
 
 import { Container } from './styles'
 
@@ -12,9 +11,10 @@ export const Section = ({ title, children, hasButton = false, buttonTitle }) => 
       <div>
         <h2>{ title }</h2>
         {hasButton && (
-          <div>
-            <Button title={buttonTitle} icon={FiPlus} />
-          </div>
+          <Link to="/new">
+            <FiPlus />
+            <span>{ buttonTitle }</span>
+          </Link>
         )}
       </div>
       { children }

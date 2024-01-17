@@ -9,9 +9,13 @@ export const Container = styled.section`
     justify-content: space-between;
     white-space: nowrap;
 
-    > div {
+    > a {
       display: flex;
       align-items: center;
+      background-color: ${({ theme }) => theme.COLORS.PINK};
+      color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+      padding: 1.6rem 3.2rem;
+      border-radius: .8rem;
     }
 
     > h2 {
