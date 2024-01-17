@@ -8,7 +8,6 @@ export const Container = styled.section`
     align-items: center;
     justify-content: space-between;
     white-space: nowrap;
-    margin-bottom: 2.4rem;
 
     > div {
       display: flex;
