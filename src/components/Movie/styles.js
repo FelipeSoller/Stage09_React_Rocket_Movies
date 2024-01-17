@@ -8,6 +8,7 @@ export const Container = styled.button`
   border-radius: 1rem;
 
   padding: 3.2rem;
+  margin-top: 2.4rem;
   margin-bottom: 2.4rem;
 
   > h1 {
