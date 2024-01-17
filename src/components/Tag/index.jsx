@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 
 import { Container } from './styles'
 
-export const Tag = ({ title, ...rest }) => {
+export const Tag = ({ title, detailTag, ...rest }) => {
   return (
-    <Container {...rest}>
+    <Container {...rest} detailTag={detailTag}>
       {title}
     </Container>
   )
@@ -12,4 +12,5 @@ export const Tag = ({ title, ...rest }) => {
 
 Tag.propTypes = {
   title: PropTypes.string,
+  detailTag: PropTypes.bool
 };
