@@ -5,6 +5,8 @@ export default {
     BACKGROUND_500: "rgba(255, 133, 155, 0.05)",
     BACKGROUND_400: "#312E38",
 
+    BORDER: "#3E3B47",
+
     GRAY_600: "#948F99",
     GRAY_500: "#CAC4CF",
 
