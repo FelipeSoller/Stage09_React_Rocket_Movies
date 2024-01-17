@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { Input } from '../../components/Input'
 
 import { Container, Profile, Wrap } from "./styles"
@@ -16,10 +17,12 @@ export const Header = () => {
           <a href="#">Logout</a>
         </Wrap>
 
-        <img
-          src="https://github.com/felipesoller.png"
-          alt="Github profile avatar"
-        />
+        <Link to='/profile'>
+          <img
+            src="https://github.com/felipesoller.png"
+            alt="Github profile avatar"
+          />
+        </Link>
       </Profile>
     </Container>
   )

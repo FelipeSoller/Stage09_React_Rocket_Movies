@@ -25,11 +25,13 @@ export const Profile = styled.div`
   gap: 1rem;
   white-space: nowrap;
 
-  > img {
-    width: 6.5rem;
-    height: 6.5rem;
-    border-radius: 50%;
-    border: 1px solid ${({ theme }) => theme.COLORS.BORDER};
+  > a {
+    > img {
+      width: 6.5rem;
+      height: 6.5rem;
+      border-radius: 50%;
+      border: 1px solid ${({ theme }) => theme.COLORS.BORDER};
+    }
   }
 
   > div {
